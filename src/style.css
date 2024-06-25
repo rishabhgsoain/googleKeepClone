@@ -1,0 +1,31 @@
+form{
+    display: flex;
+    flex-direction: column;  
+}
+.formBox{
+    width: 30%;
+    margin: 40px auto;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+}
+.formBox input,textarea{
+    border: none;
+}
+.formBox input{
+    border-bottom: 1px solid gainsboro;
+    
+}
+.btn{
+    display: flex;
+    justify-content: end;
+}
+.note{
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.3);
+    margin: 30px;
+}
+.noteBtn{
+    display: flex;
+    justify-content: end;
+}
